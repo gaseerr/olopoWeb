@@ -1,0 +1,675 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+nav.navbar.navbar-expand-lg {
+    display: block;
+    z-index: 9;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 65px;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    transition: .5s;
+    background-color: #FFF;
+}
+nav.scroll-stick {
+    background: rgb(255 255 255);
+    box-shadow: 0px 1px 2px 1px #d1d1d1;
+    display: flex !important;
+}
+.content-flex {
+    display: flex !important;
+    align-items: center !important;
+}
+nav.navbar.navbar-expand-lg {
+    padding: 10px 100px;
+}
+.navbar-brand img {
+    width: 60%;
+}
+ul.navbar-nav {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+}
+.nav-item a.nav-link {
+    color: #000;
+    font-weight: 500;
+    margin-right: 40px;
+}
+.right-side-buttons .explore-btn {
+    color: #FFF;
+    background-color: #35b34b;
+    border: 0;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.right-side-buttons .explore-btn:hover {
+    color: #FFF;
+    background-color: #FF8A00;
+}
+.right-side-buttons .join-btn {
+    color: #000;
+    background-color: #ffffff;
+    border: 1px solid #000;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.right-side-buttons .join-btn:hover {
+    color: #FFF;
+    background-color: #FF8A00;
+    border: 0;
+}
+.banner-section {
+    background: url(../images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.banner-content a {
+    background-color: #FFF;
+    text-decoration: none;
+    color: #FF8A00;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.banner-content a:hover {
+    color: #FFF;
+    background-color: #aa5d06;
+}
+.banner-content h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+.banner-content h1 span {
+    color: #FFF;
+    font-weight: 400;
+}
+.banner-content p {
+    color: #FFF;
+    margin-top: 10px;
+    padding-right: 80px;
+    font-weight: 500;
+}
+.enquery-form {
+    border-radius: 28px;
+    border: 4px solid #FFF;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.82) 0%, rgba(255, 255, 255, 0.53) 100%);
+    backdrop-filter: blur(7px);
+    padding: 40px 20px;
+}
+.enquery-form input.form-control {
+    border-radius: 10px;
+    border: 1px solid #FFA47E;
+    background: #FFF;
+    margin-bottom: 10px;
+}
+.enquery-form select.form-control {
+    border-radius: 10px;
+    border: 1px solid #FFA47E;
+    background: #FFF;
+    margin-bottom: 10px;
+}
+.enquery-form input.form-control::placeholder {
+    color: #000;
+}
+.enquery-form h3 {
+    color: #620505;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+}
+.enquery-btn button {
+    border-radius: 10px;
+    background: #2DB24B;
+    border: 0;
+    width: 100%;
+    color: #FFF;
+    padding: 6px 0px;
+    font-weight: 500;
+}
+.enquery-btn button:hover {
+    background-color: #FF8A00;
+    color: #FFF;
+}
+.nav-item a.nav-link:hover {
+    color: #FF8A00;
+}
+section.whatis-gsc {
+    background-color: #FFF3E4;
+}
+.whatis-gsc-imgvideo {
+    position: relative;
+}
+.whatis-gsc-imgvideo {
+    position: relative;
+}
+.whatis-gsc-imgvideo img {
+    width: 100%;
+}
+.whatis-gsc-content a {
+    background-color: #ff9100;
+    text-decoration: none;
+    color: #FFF;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.whatis-gsc-content a:hover {
+    background-color: transparent;
+    border: 1px solid #FF8A00;
+    color: #FF8A00;
+}
+.video-icon img {
+    width: 90%;
+    cursor: pointer;
+}
+.video-icon {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    background-color: rgba(255, 207, 151, 0.50);
+    border-radius: 50%;
+    padding: 5px;
+}
+.whatis-gsc-content h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #FF9100;
+}
+.padding-sec {
+    padding: 120px 0px;
+}
+.partner-contents {
+    display: flex;
+}
+.partners {
+    border-right: 1px solid #FF8A00;
+}
+.partners:last-child {
+    border-right: 0;
+}
+.partners p {
+    border-bottom: 1px solid #FF8A00;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    line-height: 22px;
+}
+.partners img {
+    padding-right: 10px;
+    width: 70%;
+}
+.partners p {
+    border-bottom: 1px solid #FF8A00;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    line-height: 22px;
+}
+.partners img {
+    padding-right: 10px;
+    width: 70%;
+}
+.second-partner p {
+    padding-left: 20px;
+}
+.second-partner img {
+    padding-left: 20px;
+}
+.partner-img img {
+    width: 100%;
+}
+section.franchise-oppertunity {
+    background: linear-gradient(110deg, #F79022 52.35%, #F15F2A 102.56%);
+}
+.franchise-oppertunity-content h3 {
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.franchise-oppertunity-content a {
+    background-color: #FFF;
+    border: 0;
+    padding: 10px 60px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+}
+.franchise-oppertunity-content a:hover {
+    background-color: transparent;
+    border: 1px solid #000;
+}
+.franchise-modal-content h2 {
+    font-size: 50px;
+    color: #FF8A00;
+    font-weight: 700;
+    line-height: 50px;
+}
+.franchise-modal-image img {
+    width: 100%;
+}
+section.warehouse-franchise-section {
+    background-color: #FFF3E4;
+}
+.warehose-franchise-image img {
+    width: 100%;
+}
+.warehouse-franchise-content span {
+    font-size: 35px;
+    font-weight: 500;
+}
+.warehouse-franchise-content h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #FF8A00;
+    line-height: 50px;
+}
+.warehouse-franchise-content a {
+    background-color: #FF8A00;
+    color: #FFF;
+    border: 0;
+    width: 100%;
+    padding: 8px 0px;
+    border-radius: 10px;
+    font-weight: 500;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.warehouse-franchise-content a:hover {
+    background-color: transparent;
+    color: #FF8A00;
+    border: 1px solid #FF8A00;
+}
+.cluster-franchise-content span {
+    font-size: 35px;
+    font-weight: 500;
+}
+.cluster-franchise-content h2 {
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #FF8A00;
+}
+.cluster-franchise-content a {
+    background-color: #FF8A00;
+    color: #FFF;
+    border: 0;
+    width: 100%;
+    padding: 8px 0px;
+    border-radius: 10px;
+    font-weight: 500;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.cluster-franchise-content a:hover {
+    background-color: transparent;
+    color: #FF8A00;
+    border: 1px solid #FF8A00;
+}
+.nav-pills .nav-link:hover {
+    color: #FFF !important;
+    background-color: #FF8A00 !important;
+}
+.cluster-franchise-image img {
+    width: 100%;
+}
+.benifit-head {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.benifit-tabs button.active {
+    background-color: #FF8A00 !important;
+    padding: 5px 50px 5px 10px;
+    color: #FFF !important;
+}
+.benifit-tabs button {
+    background-color: #D9D9D9 !important;
+    padding: 5px 50px 5px 10px;
+    color: #000 !important;
+    margin-right: 10px;
+    font-weight: 500;
+}
+.benefits-tab-contents li {
+    list-style: none;
+    line-height: 30px;
+    display: flex;
+    padding-right: 80px;
+}
+.benefits-tab-contents ul {
+    padding: 0;
+}
+.benefits-tab-contents li span {
+    width: 20px;
+    display: block;
+    padding-right: 25px;
+}
+.benefits-tab-contents table {
+    width: 100%;
+}
+.benefits-tab-contents td {
+    font-weight: 600;
+    padding: 7px;
+}
+.benefits-tab-contents td span {
+    font-weight: 400;
+}
+.benefits-tab-contents tr {
+    background-color: #ff8a00;
+    color: #FFF;
+}
+.benefits-tab-contents tr:nth-child(even) {
+    background-color: #ffc683;
+    color: #000;
+}
+section.benifits-section {
+    display: flex;
+}
+.benifits-section .second-tabs {
+    width: 50%;
+    padding: 0px 100px;
+    background-color: #F0EDED;
+}
+.benifits-section .first-tab {
+    padding: 0px 100px;
+    width: 50%;
+}
+section.frequently-question-section {
+    background: linear-gradient(110deg, #F79022 52.35%, #F15F2A 102.56%);
+}
+.frequently-question-head h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: #FFF;
+    margin-bottom: 30px;
+}
+.frequently-question-section .accordion-button:not(.collapsed) {
+    color: #000000;
+    background-color: #ffffff;
+    font-weight: 600;
+    box-shadow: none;
+}
+.frequently-question-section .accordion-button {
+    color: #000000;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.frequently-question-section .accordion-item {
+    margin-bottom: 8px;
+    border-radius: 10px;
+}
+section.footer-section {
+    background: linear-gradient(102deg, #4B2B0A 1.94%, #761F00 97.12%);
+}
+.footer-content-box img {
+    width: 70%;
+    margin-bottom: 20px;
+}
+.footer-content-box p {
+    color: #FFF;
+    font-size: 13px;
+}
+.footer-content-box p a {
+    color: #FFF;
+    text-decoration: none;
+}
+ul.footer-socialmedia {
+    display: flex;
+    padding: 0;
+}
+.footer-socialmedia li {
+    list-style: none;
+    margin-right: 25px;    
+}
+.footer-socialmedia li a {
+    color: #F79022 !important;
+    font-size: 20px !important;
+}
+.footer-content-box h4 {
+    color: #FFF;
+    font-size: 20px;
+}
+.footer-content-box ul {
+    padding: 0;
+}
+.footer-content-box ul li {
+    list-style: none;
+}
+.footer-content-box ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 13px;
+}
+.footer-content-box ul li a:hover {
+    color: #FF8A00;
+}
+.footer-content-box a.footer-explore {
+    background-color: #2DB24B;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.footer-content-box a.footer-explore:hover {
+    color: #FFF;
+    background-color: #FF8A00;
+}
+.footer-content-box a.footer-join {
+    border: 1px solid #F78F22;
+    padding: 5px 29px;
+    border-radius: 5px;
+    color: #F78F22;
+}
+.footer-content-box a.footer-join:hover {
+    background-color: #FFF;
+}
+.footer-content-box ul li {
+    list-style: none;
+    line-height: 35px;
+}
+.modal-body .enquery-form {
+    padding: 0;
+}
+.video-modal video {
+    width: 100%;
+}
+
+@media only screen and (max-width: 767px) {    
+    nav.navbar.navbar-expand-lg {
+        padding: 10px 15px !important;
+    }
+    .navbar-brand {
+        width: 50% !important;
+    }
+    .navbar-brand img {
+        width: 100% !important;
+    }
+    ul.navbar-nav {
+        width: 100% !important;
+    }
+    .navbar-collapse {
+        background-color: #f57726;
+        padding: 5px;
+    }
+    .nav-item a.nav-link {
+        color: #fff !important;
+        text-align: center;
+    }
+    .right-side-buttons {
+        justify-content: center;
+    }
+    .banner-section {
+        height: auto !important;
+    }
+    .banner-content h1 {
+        font-size: 30px !important;
+        margin-top: 20px;
+    }
+    .enquery-form {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .whatis-gsc-imgvideo {
+        margin-top: 30px;
+    }
+    .video-icon {
+        top: 20% !important;
+        left: 25% !important;
+    }
+    .partner-img {
+        margin-top: 30px;
+    }
+    .franchise-oppertunity-content h3 {
+        font-size: 30px !important;
+    }
+    .franchise-modal-image {
+        margin-top: 30px;
+    }
+    .warehose-franchise-image {
+        margin-top: 30px;
+    }
+    .warehouse-franchise-content button {
+        padding: 8px 10px !important;
+    }
+    .cluster-franchise-image {
+        margin-bottom: 30px;
+    }
+    section.benifits-section {
+        display: block !important;
+    }
+    .benifits-section .first-tab {
+        padding: 0 25px;
+        width: 100%;
+    }
+    .benifit-tabs button {
+        margin-bottom: 10px !important;
+    }
+    .benefits-tab-contents li {
+        padding-right: 14px !important;
+    }
+    .benifits-section .second-tabs {
+        width: 100% !important;
+        padding: 0px 25px !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {    
+    nav.navbar.navbar-expand-lg {
+        padding: 10px 15px !important;
+    }
+    .navbar-brand {
+        width: 50% !important;
+    }
+    .navbar-brand img {
+        width: 70% !important;
+    }
+    ul.navbar-nav {
+        width: 100% !important;
+    }
+    .navbar-collapse {
+        background-color: #f57726;
+        padding: 5px;
+    }
+    .nav-item a.nav-link {
+        color: #fff !important;
+        text-align: center;
+    }
+    .right-side-buttons {
+        justify-content: center;
+    }
+    .banner-section {
+        height: auto !important;
+    }
+    .banner-content h1 {
+        font-size: 30px !important;
+        margin-top: 20px;
+    }
+    .enquery-form {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .whatis-gsc-imgvideo {
+        margin-top: 30px;
+    }
+    .video-icon {
+        top: 20% !important;
+        left: 25% !important;
+    }
+    .partner-img {
+        margin-top: 30px;
+    }
+    .franchise-oppertunity-content h3 {
+        font-size: 30px !important;
+    }
+    .franchise-modal-image {
+        margin-top: 30px;
+    }
+    .warehose-franchise-image {
+        margin-top: 30px;
+    }
+    .warehouse-franchise-content button {
+        padding: 8px 10px !important;
+    }
+    .cluster-franchise-image {
+        margin-bottom: 30px;
+    }
+    section.benifits-section {
+        display: block !important;
+    }
+    .benifits-section .first-tab {
+        padding: 0 25px;
+        width: 100%;
+    }
+    .benifit-tabs button {
+        margin-bottom: 10px !important;
+    }
+    .benefits-tab-contents li {
+        padding-right: 14px !important;
+    }
+    .benifits-section .second-tabs {
+        width: 100% !important;
+        padding: 0px 25px !important;
+    }
+}
+@media only screen and (max-width: 1366px) {
+    .banner-content h1 {
+        font-size: 35px !important;
+    }
+    .banner-content img {
+        width: 24% !important;
+    }
+    .enquery-form {
+        padding: 10px 20px !important;
+        position: relative;
+        top: 40px;
+    }
+    .enquery-form input.form-control {
+        margin-bottom: 3px !important;
+    }
+    .benifit-tabs button {
+        margin-bottom: 10px;
+    }
+    .benifits-section .first-tab {
+        padding: 0px 50px !important;
+    }
+    .benifits-section .second-tabs {
+        padding: 0px 50px !important;
+    }
+}
