@@ -15,6 +15,7 @@ nav.navbar.navbar-expand-lg {
     transition: .5s;
     background-color: #FFF;
 }
+ 
 nav.scroll-stick {
     background: rgb(255 255 255);
     box-shadow: 0px 1px 2px 1px #d1d1d1;
